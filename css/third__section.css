@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: row;
     height: 290px;
-    justify-content: space-around;
+    justify-content: center;
     padding-inline: 100px;
     margin-top: 58px;
 }
@@ -41,6 +41,7 @@
     flex: 1;
     margin-inline: 40px;
     height: 230px;
+    width: 350px;
     padding-inline: 25px;
     flex-direction: column;
     align-items: center;
@@ -53,11 +54,11 @@
     height: 70px;
 }
 
-.rating1 {
+.rating {
     margin-left: 55px;
 }
 
-.account__image1 {
+.account__image {
     width: 50px;
     height: 50px;
 }
@@ -68,13 +69,25 @@
     font-weight: 400;
     line-height: 30px;
     display: flex;
-    width: 297.892px;
-    /* height: 100px; */
+    width: 297px;
     margin-top: 10px;
     align-items: center;
 }
 
 .second__review {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    flex: 1;
+    margin-inline: 40px;
+    height: 230px;
+    padding-inline: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third__review {
     display: flex;
     border-radius: 10px;
     border: 2px solid #DDD;
@@ -102,7 +115,7 @@
     align-items: start;
 }
 
-.name1 {
+.name {
     display: flex;
     color: #0B132A;
     text-align: center;
@@ -110,4 +123,77 @@
     font-weight: 500;
     margin: 0;
     width: 149px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1380px) {
+    .reviews {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .first__review {
+        margin-bottom: 50px;
+        height: 230px;
+        width: 350px;
+    }
+
+    .second__review {
+        margin-bottom: 50px;
+        height: 230px;
+        width: 350px;
+    }
+
+    .third__review {
+        height: 230px;
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 590px) {
+    .third__section__title {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .third__section_paragraph {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .rating {
+        display: none;
+    }
+
+    .first__review {
+        width: 160%;
+        height: 100%;
+    }
+
+    .first__review__image {
+        width: 100%;
+    }
+
+
+    .second__review {
+        width: 160%;
+    }
+
+    .second__review__image {
+        width: 100%;
+    }
+
+    .third__review {
+        width: 160%;
+        height: 90%;
+    }
+
+    .third__review__image {
+        width: 100%;
+    }
+
+    .first__review__text {
+        width: 100%;
+    }
 }

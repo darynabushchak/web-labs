@@ -1,9 +1,9 @@
 footer {
     display: flex;
-    margin-top: 200px;
+    margin-top: 10%;
     flex-direction: row;
     justify-content: space-between;
-    width: 1440px;
+    width: 95%;
 }
 
 .copywrite {
@@ -19,7 +19,109 @@ footer {
     flex-direction: row;
 }
 
-.social1 {
+.social {
     display: flex;
     margin-right: -15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1135px) {
+    footer {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 970px) {
+    footer {
+        margin-top: 45%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 847px) {
+    footer {
+        margin-top: 50%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+    footer {
+        margin-top: 60%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+    footer {
+        margin-top: 70%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 620px) {
+    footer {
+        align-items: center;
+        margin-top: 70%;
+        flex-wrap: wrap;
+    }
+
+    .copywrite {
+        order: 2;
+    }
+
+    .socials {
+        order: 1;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .logo {
+        order: 3;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 620px) {
+    footer {
+        align-items: center;
+        margin-top: 70%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 617px) {
+    footer {
+        margin-top: 80%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 539px) {
+    footer {
+        margin-top: 90%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 490px) {
+    footer {
+        margin-top: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 436px) {
+    footer {
+        margin-top: 110%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    footer {
+        margin-top: 140%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 358px) {
+    footer {
+        margin-top: 150%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 335px) {
+    footer {
+        margin-top: 160%;
+    }
 }
