@@ -1,0 +1,29 @@
+body {
+    font-family: "Rubik";
+    background-color: #ffffff;
+    color: black;
+    margin: 0;
+}
+
+.header__container {
+    margin: 0 auto;
+    max-width: 1100 px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+li {
+    display: block;
+}
+
+button {
+    border: 0;
+    background-color: #ffffff;
+}
+
+button:active {
+    opacity: 0.5;
+}

@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu ul {
+    display: flex;
+    color: #4F5665;
+}
+
+.menu__item {
+    margin-right: 40px;
+}
+
+.header__sign-in {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header__sign-up {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    color: #F53855;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero__get-started {
+    width: 250px;
+    height: 60px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    box-shadow: 0px 15px 10px rgba(245, 56, 56, 0.150);
+}

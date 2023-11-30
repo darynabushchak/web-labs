@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    margin-top: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+.copywrite {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #AFB5C0;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.social1 {
+    display: flex;
+    margin-right: -15px;
+}

@@ -1,0 +1,33 @@
+.hero__get-started {
+    color: #ffffff;
+    border-radius: 10px;
+    background: #F53838;
+    margin-top: 50px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 90px;
+    margin-top: 90px;
+}
+
+.hero__title {
+    color: #0B132A;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.hero__paragraph {
+    width: 555px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
