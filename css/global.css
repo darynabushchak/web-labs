@@ -1,0 +1,27 @@
+body {
+    font-family: "Rubik";
+    background-color: #ffffff;
+    color: black;
+    margin: 0;
+}
+
+.header__container {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: block;
+}
+
+button {
+    border: 0;
+    background-color: #ffffff;
+}
+
+button:active {
+    opacity: 0.5;
+}
