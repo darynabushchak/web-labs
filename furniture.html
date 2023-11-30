@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Furniture</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- Rubik font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <button class="my_furniture">My Furniture</button>
+        <button class="my_chairs">My Chairs</button>
+        <button class="create_chair">Create Chair</button>
+      </div>
+      <div class="search__block">
+        <input
+          id="type_input"
+          type="text"
+          class="type_something__input"
+          placeholder="type something.."
+        />
+        <button class="search">search</button>
+        <button class="clear">clear</button>
+      </div>
+    </header>
+    <div id="my_chairs_page-content">
+      <div class="manage_chairs">
+        <p class="manage_chairs__title">Manage chairs</p>
+        <div class="sort__container">
+          <div class="sort__block">
+            <p class="sort__title">Sort by the most expensive chairs</p>
+            <div class="toggle-switch">
+              <label class="switch">
+                <input type="checkbox" id="sort-switch">
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <p class="count__title">Count total daily expenses:</p>
+          <div class="count__button">
+            <button class="count">Count</button>
+          </div>
+          <p class="total_expenses">Total expenses:</p>
+        </div>
+      </div>
+      <div id="chairs-container" class="chair__block">
+        <ul id="chairs__list">
+          <li class="chair__list--item">
+            <h3 class="chair-name">Name:</h3>
+            <p class="chair-description">Description:</p>
+            <p class="chair-price">Price</p>
+            <p class="chair-color">Color</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
