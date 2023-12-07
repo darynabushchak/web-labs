@@ -1,0 +1,124 @@
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    height: 65px;
+    background-color: #f5f3f3;
+}
+
+.menu_create_chair, .menu_my_chairs {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search__block {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#my_furniture {
+    border: 1px solid #dddddd;
+    height: 65px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5d5959;
+    font-size: 20px;
+    background-color: #f5f3f3;
+}
+
+.menu_my_chairs #my_chairs {
+    border: 1px solid #dddddd;
+    height: 65px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #dddddd;
+}
+
+.menu_create_chair #my_chairs {
+    border: 1px solid #f5f3f3;
+    height: 65px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #f5f3f3;
+}
+
+.menu_my_chairs #create_chair {
+    height: 65px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #f5f3f3;
+}
+
+.menu_create_chair #create_chair {
+    height: 65px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #dddddd;
+}
+
+
+.type_something__input {
+    border: 2px solid #ddddddf4;
+    border-radius: 5px;
+    height: 45px;
+    width: 250px;
+    display: flex;
+    padding-left: 12px;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 15px;
+    color: #5d5959;
+    background-color: #fdfdfd;
+}
+
+[type="text"]::placeholder {
+    font-family: "Rubik";
+}
+
+.search {
+    border: 2px solid #252d9b;
+    border-radius: 7px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #252d9b;
+}
+
+.clear {
+    border: 2px solid #b81b1bd7;
+    border-radius: 7px;
+    height: 45px;
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #b42121;
+}
